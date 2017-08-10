@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rneedle.github.io/2017-portfolio",
+  "homepage": "http://noodlingdesign.com",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
