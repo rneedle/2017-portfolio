@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import upArrow from './up-arrow.svg';
-import downArrow from './down-arrow.svg';
+//import upArrow from './up-arrow.svg';
+//import downArrow from './down-arrow.svg';
 import './App.css';
 import ProjectPages from './components/ProjectPages.react.js'
 

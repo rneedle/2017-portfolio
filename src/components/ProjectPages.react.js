@@ -33,10 +33,10 @@ class ProjectPages extends Component {
       return (
         <div className='project' key={e.name}>
           <div className='project-description-wrapper'>
+          <div className='line'/>
             <div className='project-description'>
               <div className='project-summary'>
                 <div>
-                  <div className='line'/>
                   <ol>
                     <li>{e.year}</li>
                     <li>{e.name}</li>
