@@ -15,10 +15,12 @@ let content = [
     'name': 'Early Warning System',
     'employer': 'LearnSprout, Inc.',
     'text': [
-      "Early warning systems in education identify students at-risk of failing to meet important academic milestones, such as reading at grade-level, on-time graduation, and college readiness. Learnsprout created an EWS system using Student Information toin System data to show school administrators blah blah blah look at your sketches for the rest.",
+      "Early warning systems in education identify students at-risk of failing to meet important academic milestones, such as reading at grade-level, on-time graduation, and college readiness. Learnsprout created an EWS system using Student Information System data to help administrators keep track of students who are college-ready, identity students in need of additional help, and track resource allocation.",
     ],
     'images': [
-      'HRengage-01.png',
+      'ews-1.png',
+      'ews-2.png',
+      'ews-3.png',
     ]
   },
   {
@@ -36,7 +38,7 @@ let content = [
     'name': 'Identity',
     'employer': 'Yale University',
     'text': [
-      "Text goes here.",
+      "Yale University is of the country’s oldest, most famous, and highly regarded research universities. Yale’s identity encapsulates both its tradition and history and evolve as the institution and its students do.  Designers in the Office of the University Printer are tasked with articulating this identity to the University community, monitoring the design communications both public and internal facing, and pushing the identity forward each year.",
     ],
     'images': [
       'idsite-01.png',
