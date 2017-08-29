@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import content from '../content/projects.js'
+import ProjectImageCarousel from './ProjectImageCarousel.react.js'
 
 class ProjectPages extends Component {
   constructor() {
@@ -22,11 +23,6 @@ class ProjectPages extends Component {
     );
   }
 
-  _getImage(images) {
-    let imageIdx = this.state.currentImage % images.length;
-    let image = require(`../static/${images[imageIdx]}`);
-    return <img src={image} alt="project-image"/>;
-  }
 
   _getDescriptions() {
     return content.map(e => {
@@ -38,10 +34,10 @@ class ProjectPages extends Component {
               <div className='project-summary'>
                 <div>
                   <ol>
-                    <li>{e.year}</li>
                     <li>{e.name}</li>
                     <li>{e.employer}</li>
                     <li>{e.type}</li>
+                    <li>{e.year}</li>
                   </ol>
                 </div>
               </div>
@@ -57,7 +53,7 @@ class ProjectPages extends Component {
 
   _getImages() {
     return content.map(e => {
-      return this._getImage(e.images);
+      return <ProjectImageCarousel images={e.images} />;
     });
   }
 
